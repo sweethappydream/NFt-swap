@@ -7,6 +7,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract NFTSwap is ReentrancyGuard, Ownable {
+    //NFT swap
     address payable public swapOwner;
 
     using Counters for Counters.Counter;
